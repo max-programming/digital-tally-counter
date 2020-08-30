@@ -1,13 +1,40 @@
+@font-face {
+  font-family: "Orbitron";
+  src: url("./Orbitron-Regular.ttf");
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #455564;
+  color: #4ed6e2;
+  font-family: Orbitron;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header .buttons button {
+  margin-right: 10px;
+}
+.header button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.header button:focus {
+  outline-color: #4ed6e2;
+  outline-width: 0.5px;
+  outline-style: solid;
+}
+
+.counter .circle {
+  border: 5px solid #4ed6e2;
+  background-color: #313b44;
+  border-radius: 50%;
+  height: 20rem;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 4rem;
+}
+.counter .circle h1 {
+  transform: translateY(30px);
 }
