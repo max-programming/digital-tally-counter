@@ -19,7 +19,7 @@ const App = () => {
             fontFamily: "sans-serif",
           }}
         >
-          Please use it in a mobile device for a better view.
+          Please use it on a mobile device for a better view.
         </h2>
         <main>
           <Counter count={count} increment={increment} />
