@@ -1,6 +1,10 @@
 {
   "name": "Digital Tally Counter",
+<<<<<<< HEAD
   "short_name": "Counter.",
+=======
+  "short_name": "Counter",
+>>>>>>> be032a71707a0b91c55a1cd0e46697f81596599a
   "icons": [
     {
       "src": "favicon.ico",
