@@ -48,3 +48,9 @@ body {
 .counter .circle h1 {
   transform: translateY(30px);
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 60%;
+  }
+}
