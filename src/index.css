@@ -51,6 +51,7 @@ body {
 
 @media (max-width: 768px) {
   .container {
-    width: 60%;
+    width: auto;
+    padding: 0 50px;
   }
 }
