@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Header = ({ setCount }) => {
   return (
     <div className='header'>

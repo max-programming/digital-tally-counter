@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Counter = ({ count, increment }) => {
   return (
     <div className='counter' onClick={increment}>
